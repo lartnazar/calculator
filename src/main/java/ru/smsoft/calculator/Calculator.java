@@ -1,6 +1,8 @@
 package ru.smsoft.calculator;
 import	org.springframework.stereotype.Service;
-
+/**
+ * javadoc
+ */
 
 
 @Service
