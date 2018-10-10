@@ -2,7 +2,9 @@ package ru.smsoft.calculator;
 import org.junit.Test;
 import static org.junit.Assert.assertEquals;
 
-
+/**
+ * javadoc
+ */
 
 
 public class CalculatorTest {
