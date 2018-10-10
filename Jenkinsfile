@@ -47,7 +47,7 @@ pipeline	{
 										}
 										stage('Docker build') {
 											steps {
-												sh "docker build -t efp2.sm-soft.ru:5000/calculator"
+												sh "docker build -t efp2.sm-soft.ru:5000/calculator ."
 											}
 
 										}
