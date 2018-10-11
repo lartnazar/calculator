@@ -51,5 +51,11 @@ pipeline	{
 											}
 
 										}
+										stage('Docker push') {
+											steps {
+												sh "docker push efp2.sm-soft.ru:5000/calculator"
+											}
+
+										}
 					}
 }
