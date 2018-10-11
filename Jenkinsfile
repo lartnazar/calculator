@@ -63,5 +63,16 @@ pipeline	{
 											}
 
 										}
+										stage('Acceptance test') {
+											steps {
+												sleep 60
+												sh "sh acceptance_test.sh"
+											}
+
+										}
+										post { always{
+											sh "docker stop calculator"
+											}
+										}
 					}
 }
