@@ -1,0 +1,8 @@
+version: "2"
+services:
+  calculator:
+    image: efp2.sm-soft.ru:5000/calculator:latest
+    ports:
+      - 8080
+  redis:
+    image: redis:latest
