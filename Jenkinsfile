@@ -57,5 +57,11 @@ pipeline	{
 											}
 
 										}
+										stage('Deploy to staging') {
+											steps {
+												sh "docker run -d --rm -p 8765:8800 --name calculator efp2.sm-soft.ru:5000/calculator"
+											}
+
+										}
 					}
 }
